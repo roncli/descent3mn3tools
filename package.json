@@ -1,0 +1,32 @@
+{
+    "name": "descent3mn3tools",
+    "version": "0.1.0",
+    "description": "A cross-platform Descent 3 mission parser implemented in node.js.",
+    "keywords": [
+        "Descent 3",
+        "MN3",
+        "Mission",
+        "Parser"
+    ],
+    "homepage": "https://github.com/roncli/descent3mn3tools",
+    "bugs": {
+        "url": "https://github.com/roncli/descent3mn3tools/issues",
+        "email": "roncli@roncli.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Ronald M. Clifford",
+        "email": "roncli@roncli.com",
+        "url": "http://www.roncli.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roncli/descent3mn3tools.git"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {
+        "node": ">=0.12.4"
+    },
+    "private": false
+}
