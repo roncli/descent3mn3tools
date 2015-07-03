@@ -47,7 +47,7 @@ RegExp.prototype.safeexec = function(string) {
 
     if (result) {
         result.forEach(function(item, index) {
-            result[index] = item.split("").join(""); //JSON.parse(JSON.stringify(item));
+            result[index] = item.split("").join("");
         });
     }
 
@@ -183,7 +183,7 @@ mn3tools.parse = function(filename, callback) {
                                                         file.gameTypes.ctf = true;
                                                         file.gameTypes.teams = +goals[1];
                                                     }
-                                                    file.hoard = true;
+                                                    file.gameTypes.hoard = true;
                                                 } else {
                                                     switch (keyword) {
                                                         case "goalperteam":
