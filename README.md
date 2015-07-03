@@ -108,6 +108,10 @@ Each entry in `file.levels` may have the following properties.
 
 ## History
 
+### Version 0.1.1 - 7/3/2015
+
+* Fixed bug with assigning the hoard game type.
+
 ### Version 0.1 - 7/1/2015
 
 * Initial version.
