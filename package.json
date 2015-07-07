@@ -1,6 +1,6 @@
 {
     "name": "descent3mn3tools",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A cross-platform Descent 3 mission parser implemented in node.js.",
     "keywords": [
         "Descent 3",

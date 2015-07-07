@@ -47,7 +47,11 @@ RegExp.prototype.safeexec = function(string) {
 
     if (result) {
         result.forEach(function(item, index) {
-            result[index] = item.split("").join("");
+            if (item) {
+                result[index] = item.split("").join("");
+            } else {
+                result[index] = undefined;
+            }
         });
     }
 
